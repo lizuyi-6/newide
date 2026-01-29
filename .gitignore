@@ -1,0 +1,12 @@
+node_modules
+dist
+out
+.git
+.DS_Store
+*.log
+.vscode-test
+.vs
+bin
+obj
+__pycache__
+*.pyc

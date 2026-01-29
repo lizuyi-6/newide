@@ -1,0 +1,94 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "type": "dark",
+    "colors": {
+        "activityBar.background": "#0a0a0b",
+        "activityBar.foreground": "#eab308",
+        "activityBar.border": "#2a2a30",
+        "activityBarBadge.background": "#eab308",
+        "activityBarBadge.foreground": "#0a0a0b",
+        "sideBar.background": "#0a0a0b",
+        "sideBar.foreground": "#eeeeee",
+        "sideBar.border": "#2a2a30",
+        "sideBarSectionHeader.background": "#121214",
+        "sideBarSectionHeader.foreground": "#eab308",
+        "editor.background": "#0a0a0b",
+        "editor.foreground": "#eeeeee",
+        "editorLineNumber.foreground": "#52525b",
+        "editorLineNumber.activeForeground": "#eab308",
+        "editorCursor.foreground": "#eab308",
+        "editor.selectionBackground": "#3b82f640",
+        "statusBar.background": "#0a0a0b",
+        "statusBar.foreground": "#52525b",
+        "statusBar.border": "#2a2a30",
+        "statusBarItem.remoteBackground": "#eab308",
+        "statusBarItem.remoteForeground": "#0a0a0b",
+        "titleBar.activeBackground": "#0a0a0b",
+        "titleBar.activeForeground": "#eeeeee",
+        "titleBar.border": "#2a2a30",
+        "tab.activeBackground": "#0a0a0b",
+        "tab.activeForeground": "#eab308",
+        "tab.activeBorderTop": "#eab308",
+        "tab.inactiveBackground": "#0a0a0b",
+        "tab.inactiveForeground": "#52525b",
+        "list.activeSelectionBackground": "#eab30820",
+        "list.activeSelectionForeground": "#eab308",
+        "list.hoverBackground": "#ffffff10",
+        "panel.background": "#0a0a0b",
+        "panel.border": "#2a2a30",
+        "terminal.background": "#0a0a0b",
+        "focusBorder": "#eab308",
+        "input.background": "#121214",
+        "input.border": "#2a2a30",
+        "input.foreground": "#eeeeee"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#52525b",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "keyword",
+                "storage"
+            ],
+            "settings": {
+                "foreground": "#eab308",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "string",
+                "string.quoted"
+            ],
+            "settings": {
+                "foreground": "#3b82f6"
+            }
+        },
+        {
+            "scope": [
+                "support.function",
+                "entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#eab308"
+            }
+        },
+        {
+            "scope": [
+                "variable",
+                "entity.name.variable"
+            ],
+            "settings": {
+                "foreground": "#eeeeee"
+            }
+        }
+    ]
+}
